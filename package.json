@@ -1,0 +1,20 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "description": "Newline Delimited JSON client",
+  "main": "index.js",
+  "engines": {
+    "node": ">=6.9"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha",
+    "doc": "jsdoc2md -f *.js > API.MD"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://jeffm13.github.com/client"
+  },
+  "author": "Jeff Mackay",
+  "license": "MIT"
+}
