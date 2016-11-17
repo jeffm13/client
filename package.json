@@ -17,7 +17,7 @@
     "url": "https://jeffm13.github.com/client"
   },
   "author": "Jeff Mackay",
-  "license": "MIT",
+  "license": "Unlicense",
   "devDependencies": {
     "chai": "^3.5.0",
     "mocha": "^3.1.2",
