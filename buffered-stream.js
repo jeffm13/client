@@ -44,12 +44,6 @@ class BufferedStream extends events.EventEmitter {
       }
     });
 
-    /**
-     * Fired when an error is encountered in the underlying stream.
-     * @event BufferedStream#error
-     * @type {object}
-     */
-    stream.on('error', (error) => self.emit('error', error));
   }
 }
 

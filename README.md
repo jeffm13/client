@@ -8,10 +8,19 @@ To install and run the client, you'll need:
 - [Git client](https://git-scm.com/)
 - [Node.js](http://nodejs.org), version 6.9.X
 
+To run tests (there aren't many, but there are a few), you'll need:
+- [Mocha](https://mochajs.org/)
+- [Istanbul](https://github.com/gotwarlost/istanbul)
+
 ## Installing the Client
 To install the client program, clone this repository: 
 
     $ git clone https://github.com/jeffm13/client.git
+
+If you'd like to run tests, you'll also need to: 
+
+    $ cd <client directory>
+    $ npm install
 
 ## Running the Client
 To run the client program, start it with npm:
@@ -23,6 +32,18 @@ The client program will display a command prompt:
     Connected to 104.198.157.112:9432
     Welcome ~~ foo!
     Client >
+
+### Running tests
+
+    $ npm test
+    
+### Running coverage analysis
+
+    $ npm run coverage
+    
+Coverage analysis will be in the `coverage/lcov-report/index.html` file. 
+
+Note that for the sake of time, I only included tests for the `buffered-stream.js` file. 
 
 ## Using the Client
 
