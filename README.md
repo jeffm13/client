@@ -107,7 +107,7 @@ You can enter raw JSON into the client, and it will send the JSON request to the
 
 ## Implementation
 
-The Client program was implemented in Node.js.  It's pretty rudimentary--certainly not industrial strength.  But since it's a throw-away, that shouldn't be too surprising.  There are no external dependencies, other than standard Node.js packages. 
+The client program was implemented in Node.js.  It's pretty rudimentary--certainly not industrial strength.  But since it's a throw-away, that shouldn't be too surprising.  There are no external runtime dependencies, other than standard Node.js packages. Development dependencies only include testing tools.
 
 The requirements state that:
 
